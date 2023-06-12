@@ -1,16 +1,16 @@
 body{
     background-image: url(imagenes/background.jpg);
-    background-size: cover;
-    margin: 15px 20% 5%; 
+    background-size:cover;
     text-align: center;
 }
 
-.container{
-    background-color:rgba(17, 17, 17, 0.664);
+Body .container{
+    background-color:rgba(36, 32, 32, 0.664);
     border-radius: 10px;
+    margin: 15px 20% 
 }
 
-header {
+body header {
     color: rgb(16, 197, 9);
     font-size: 18px;
     font-weight: 500;
@@ -18,17 +18,17 @@ header {
     padding-top: 50px;
 }
 
-nav{
+body nav{
     margin:0% 10%;
     box-sizing: border-box;
     padding: 10px;
     background-color: rgb(16, 197, 9);
 }
-button {
+nav button {
     cursor: pointer;
   }
 
-main{
+body main{
     text-align: left;
     color: white;
     padding-bottom: 50px;
@@ -44,23 +44,23 @@ main .monopattino{
     font-size: large;
 }
 
-.carica div{
+.monopattini .carica div{
     border-radius: 5px;
     box-sizing: border-box;
     padding: 10px;
 }
 
-.uno{
+.carica .uno{
     margin: 0% 63% 0% 0%;
     background-color: rgb(230, 181, 23); 
 }
 
-.due{
+.carica .due{
     margin: 0% 35% 0% 0%;
     background-color: rgb(16, 197, 9);
 }
 
-.tre{
+.carica .tre{
     margin: 0% 85% 0% 0%;
     background-color: rgb(158, 62, 62);
 }
