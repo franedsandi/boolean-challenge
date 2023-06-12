@@ -17,34 +17,37 @@ body header {
     font-family: Arial;
     padding-top: 50px;
 }
+header img{
+    width: 125px;
+}
 
-body nav{
+nav{
     margin:0% 10%;
     box-sizing: border-box;
     padding: 10px;
     background-color: rgb(16, 197, 9);
 }
-nav button {
+button {
     cursor: pointer;
   }
 
-body main{
+main{
     text-align: left;
     color: white;
     padding-bottom: 50px;
     font-family: Arial
 }
 
-main .monopattini{
+.monopattini{
     margin: 20px 10%;
     font-size: 75%;
 }
 
-main .monopattino{
+.monopattino{
     font-size: large;
 }
 
-.monopattini .carica div{
+.carica div{
     border-radius: 5px;
     box-sizing: border-box;
     padding: 10px;
